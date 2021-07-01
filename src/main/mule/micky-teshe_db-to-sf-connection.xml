@@ -49,5 +49,6 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="6e52b96b-483f-443f-b114-56bae1f21d12" message='#["After dw"]'/>
 	</flow>
 </mule>
